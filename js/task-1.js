@@ -8,10 +8,10 @@ console.log('Number of categories: ' + listItemNumber);
 //const listItem = document.querySelector('.item');
 //console.log(listItem);
 listItems.forEach ((listItem) => {
-    const listName = listItem.querySelector('h2').textContent;
-    const listCategory = listItem.querySelectorAll('ul li');
-    console.log(`Category: ${listName} 
-    Elements: ${listCategory.length}`)
+    const listCategory = listItem.querySelector('h2').textContent;
+    const listElemNumber = listItem.querySelectorAll('ul li');
+    console.log(`Category: ${listCategory} 
+    Elements: ${listElemNumber.length}`)
 }
 
 ) 
